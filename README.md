@@ -1,5 +1,9 @@
 # Solar Prompt Cookbook
 
+Getting Started Quickly with Codespace
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/studydev/Solar_Prompt_Guide?quickstart=1)
+
 Prompting serves as a cohesive natural language interface for human-AI interactions and has become widely adopted with the rise of large language models (LLMs). LLMs are particularly sensitive to prompt design. This cookbook aims to provide a comprehensive, step-by-step guide for crafting highly effective prompts within Solar, emphasizing practical techniques and strategies. Central to this course is the concept of a prompt engineering cookbook-a collection of structured recipes outlining best practices for prompt creation. These recipes present proven methods to optimize interactions with solar models, addressing common challenges and providing frameworks for diverse use cases.
 
 By the end of this book, **you will be able to:** 

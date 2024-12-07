@@ -1,0 +1,26 @@
+{
+	"name": "Solar Prompt Cookbook Dev Environment",
+	"image": "mcr.microsoft.com/devcontainers/python:3.11",
+	"features": {
+		"ghcr.io/devcontainers/features/python:1": {
+			"version": "3.11.4",
+			"installJupyterlab": true
+		}
+	},
+	"customizations": {
+		"codespaces": {
+			"openFiles": [
+				"README.md"
+			]
+		},
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter",
+				"github.copilot"
+			]
+		}
+	},
+	"postCreateCommand": "pip3 install --user -r requirements.txt",
+	"runArgs": []
+}
